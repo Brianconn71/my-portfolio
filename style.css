@@ -226,6 +226,17 @@ h6{
     left: -5px;
 }
 
+.about-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 50px 0;
+}
+#skills{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow);
+}
+
 @media screen and (max-width: 1200px){
     .main-container{
         width: 95%;
