@@ -61,7 +61,6 @@
                     <h4>More about me</h4>
                     <p>I am looking for a new and exciting challenge, something to inspire me and get me excited.</p>
                     <p>I love technology and I enjoy helping freelance clients to see their dreams turn into reality on the world wide web.</p>
-                </div>
                 <hr>
                 <h4>Skillset</h4>
                 <p>Fullstack developer with primary focus on Django and freelance experience in WordPress sites.<a href="Brian Connolly Curriculum Vitae.pdf" target="_blank">Download my Resume</a></p>
@@ -83,9 +82,11 @@
                         <li>WordPress</li>
                     </ul>
                 </div>
+            </div>
                 <div class="social-links">
                     <img id="social-img" src="images/My profile pic.jpg" alt="">
-                    <!-- 1:15:31 video -->
+                    <h3>Find me on Linkedin </h3>
+                    <a target="_blank" href="#">LinkedIn</a>
                 </div>
             </div>
         </div>
@@ -93,13 +94,54 @@
 
     <section class="s1">
         <div class="main-container">
-            <h2>Portfolio</h2>
+            <h3 style="text-align: center">Some projects I have built</h3>
+            <div class="post-wrapper">
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/My profile pic.jpg" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">This is a sentence and this is some more text.,</p>
+                            <a href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="post">
+                        <img class="thumbnail" src="images/My profile pic.jpg" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">This is a sentence and this is some more text.,</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="post">
+                        <img class="thumbnail" src="images/My profile pic.jpg" alt="">
+                        <div class="post-preview">
+                            <h6 class="post-title">Post Title</h6>
+                            <p class="post-intro">This is a sentence and this is some more text.,</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="s2">
         <div class="main-container">
-            <h2>Contact me</h2>
+            <h3 style="text-align: center">Contact me</h3>
+            <form action="" id="contact-form">
+                <label for="name">Name</label>
+                <input type="text" name="name" class="input-field">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" class="input-field">
+                <label for="email">Email</label>
+                <input type="text" name="email" class="input-field">
+                <label for="message">Message</label>
+                <textarea name="message" id="" cols="30" rows="10" class="input-field"></textarea>
+                <input id="submit-btn" type="submit" value="Send">
+            </form>
         </div>
     </section>
 </body>
