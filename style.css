@@ -16,6 +16,9 @@ html, body{
     padding: 0;
     margin: 0;
 }
+body *{
+    transition: 0.4s;
+}
 
 h1, h2, h3, h4, h5, h6, strong{
     color: var(--mainText);
@@ -98,6 +101,10 @@ h6{
     justify-content: space-between;
     align-items: center;
     background-color: var(--mainColor);
+}
+
+#navigation a{
+    color: var(--mainText);
 }
 
 #navigation{
@@ -290,6 +297,13 @@ h6{
     background-color: var(--mainColor);
     margin-bottom: 50px;
 }
+#contact-form label{
+    line-height: 2.7em;
+}
+#contact-form textarea{
+    min-height: 100px;
+    font-size: 14px;
+}
 .input-field{
     width: 100%;
     padding: 10px 0;
@@ -298,7 +312,7 @@ h6{
     border: 1px solid var(--borderColor);
     font-size: 14px;
 }
-/* 1:33:00 in video!!!  */
+/*   */
 
 #submit-btn{
     margin-top: 10px;
